@@ -13,8 +13,8 @@ import random, string # To generate random strings for Secondary directory names
 from six.moves import range
 
 # Values to plug in below as needed.
-LOCAL = 'localhost'
-HOSTING = '0.0.0.0'
+LOCAL = '127.0.0.1'
+HOSTING = '127.0.0.1'
 
 METADATA_EXTENSION = '.' + tuf.conf.METADATA_FORMAT
 

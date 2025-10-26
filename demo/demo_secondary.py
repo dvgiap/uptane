@@ -45,8 +45,8 @@ import canonicaljson
 from six.moves import xmlrpc_client
 
 # Allow tab completion in the interactive Python shell.
-import readline, rlcompleter
-readline.parse_and_bind('tab: complete')
+#import readline, rlcompleter
+#readline.parse_and_bind('tab: complete')
 
 # Tell the reference implementation that we're in demo mode.
 # (Provided for consistency.) Currently, primary.py in the reference
